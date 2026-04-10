@@ -1,6 +1,6 @@
 import { Vehicle, Reservation, UnavailableDate } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://ilas-car.onrender.com';
 
 export const api = {
   vehicles: {
