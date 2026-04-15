@@ -175,5 +175,5 @@ app.delete('/api/unavailable/:id', verifyAdmin, (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`服务器运行在 http://localhost:${PORT}`);
 });
